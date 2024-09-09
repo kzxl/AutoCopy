@@ -14,7 +14,7 @@
         <Label Content="Copy from" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="71"/>
         <Label Content="Copy to" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
         <TextBox HorizontalAlignment="Left" Margin="107,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="312" Height="25" IsEnabled="False" x:Name="txt_copyto"/>
-        <TextBox HorizontalAlignment="Left" Margin="107,71,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="53" Height="25" InputScope="Number" x:Name="txt_delay" KeyDown="txt_delay_KeyDown" TextChanged="txt_delay_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Margin="107,71,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="53" Height="25" InputScope="Number" x:Name="txt_delay" />
         <Label Content="Auto copy after" HorizontalAlignment="Left" Margin="10,68,0,0" VerticalAlignment="Top"/>
         <Label Content="s" HorizontalAlignment="Left" Margin="165,68,0,0" VerticalAlignment="Top"/>
         <Button Content="..." HorizontalAlignment="Left" Margin="424,13,0,0" VerticalAlignment="Top" Width="35" x:Name="btn_copyfrom" Click="btn_copyfrom_Click"/>
@@ -22,7 +22,7 @@
         <CheckBox Content="Auto start with window" HorizontalAlignment="Left" Margin="10,102,0,0" VerticalAlignment="Top" Width="161" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked" x:Name="chk_startwithwindow"/>
         <Button Content="Save Setting" HorizontalAlignment="Left" Margin="364,77,0,0" VerticalAlignment="Top" Width="95" x:Name="btn_saveSetting" Click="btn_saveSetting_Click"/>
         <Label Content="Next copy: " HorizontalAlignment="Left" Margin="365,110,0,0" VerticalAlignment="Top" Width="94" x:Name="lbl_timer"/>
-        <Button Content="Log" HorizontalAlignment="Left" Margin="288,77,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.493,0.525" Width="71" x:Name="btn_logview" Click="btn_logview_Click"/>
+        <Button Content="Log" HorizontalAlignment="Left" Margin="288,77,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.493,0.525" Width="71" x:Name="btn_logview"/>
 
     </Grid>
 </Window>
